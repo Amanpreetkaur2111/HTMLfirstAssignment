@@ -85,90 +85,9 @@ footer {
 }
 /*  */
 
-@media only screen and (min-width: 685px){
-
-nav li{
-  display: inline;
-  float: left;
-  margin-right: 1%;
-    padding-left: 0;
-    padding-right: 0;
-    width: 18%;
-    white-space: nowrap;
-    border-radius: 0;
-    background-color: transparent;
-
-
-}
-
-main {
-    clear: left;
-    /* margin-top: 4em; */
-    border-radius: 0;
-    overflow: auto;
-  }
-
-  /* styles for h1 */
-  h1 {
-    text-align: center;
-  }
-
-  /* styles for images in figure */
-  figure img {
-    background-color: #1d1d1c;
-    display: inline;
-    height: 8em;
-    width: 28%;
-    margin: 1%;
-    padding: 1%
-  }
-
-  /* styles for the anchor tag in the figure */
-  figure a {
-    padding: 0;
-    background-color: transparent;
-    text-decoration: none;
-  }
-
-  /* styles for the mobiole class */
-  .mobile {
-    display: none;
-  }
-
-  /* sektop styles */
-  .desktop {
-    display: inline;
-  }
-
-  /* styles for the eqiup class */
-  .equip {
-    display: inline;
-    float: left;
-    margin-right: 1.5em;
-  }
-  section {
-    padding-bottom: 3em;
-  }
-
-  /* styles for teh h1 in teh section */
-  section h1 {
-    text-align: left;
-  }
-
-  /* styles for teh anchor tag inside section */
-  section a {
-    background-color: transparent;
-    color: #1d1d1c;
-    font-weight: normal;
-    padding: 0;
-    text-decoration: underline;
-  }
 
 
 
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
     width: 100%;

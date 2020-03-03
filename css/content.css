@@ -129,3 +129,9 @@ table {
     box-shadow: 1em 1em 1em #4c4f4d;
     /* opacity: 0.5; */
   }
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
